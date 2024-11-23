@@ -287,11 +287,12 @@ main{
     /* height: 100vh; */
     height: fit-content;
     display: flex;
+    padding: 0 4rem;
 }
 
 .projectSection .projectLeft{
-    width: 30%;
-    padding: 4rem 2rem;
+    width: 35%;
+    padding: 4rem 0rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -300,7 +301,7 @@ main{
 
 
 .projectLeftImg{
-    width: 80%;
+    width: 70%;
     height: 55vh;
     border-radius: 10px;
     object-fit: cover;
@@ -308,7 +309,7 @@ main{
 }
 
 .projectLeftBottom{
-    width: 80%;
+    width: 75%;
     padding: 0.8rem;
     border: 1px solid #dcdcdc;
     border-radius: 10px;
@@ -319,7 +320,7 @@ main{
 }
 
 .projectSection .projectShowcase{
-    width: 70%;
+    width: 65%;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
@@ -331,6 +332,59 @@ main{
     display: flex;
     gap: 2rem;
 }
+
+.projectShow{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.show{
+    width: 45%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    /* flex-wrap: wrap; */
+}
+
+.showImg{
+    width: 100%;
+    height: 80%;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.showImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.showDetails{
+    width: 100%;
+    height: 15%;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 0.6rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.nameDetails,
+.place{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 
 

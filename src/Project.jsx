@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Sktrech from './Assets/hand.jpg';
 import Filter from './Compoents/FilterButton';
+import Show from './Compoents/Show';
 
 function Project() {
     const [active,setactive] = useState('1');
@@ -30,6 +31,13 @@ function Project() {
                     <Filter id='2' setactive={setactive} active={active} Name={'Commerical'} />
                     <Filter id='3' setactive={setactive} active={active} Name={'Residential'} />
                     <Filter id='4' setactive={setactive} active={active} Name={'Healthcare'} />
+                </div>
+
+                <div className='projectShow'>
+                    <Show />
+                    <Show />
+                    <Show />
+                    <Show />
                 </div>
             </div>
         </div>
