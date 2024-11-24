@@ -288,6 +288,7 @@ main{
     height: fit-content;
     display: flex;
     padding: 0 4rem;
+    border: 1px solid #dcdcdc;
 }
 
 .projectSection .projectLeft{
@@ -302,7 +303,7 @@ main{
 
 .projectLeftImg{
     width: 70%;
-    height: 55vh;
+    height: 60vh;
     border-radius: 10px;
     object-fit: cover;
     object-position: center;
@@ -385,6 +386,87 @@ main{
 }
 
 
+.footer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
 
+.talkSection{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.talkSection .h1-heading{
+    width: 40%;
+    text-align: left;
+}
+
+.talkdetails{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footerCall{
+    width: fit-content;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem 1rem;
+}
+
+.talkdetails .paragraph{
+    width: 80%;
+} 
+
+.callImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.contactDetails{
+    width: 100%;
+    height: fit-content;
+    padding: 0 2rem;
+    display: flex;
+}
+
+.textContactDetails{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.email,
+.phone{
+    width: 60%;
+    padding: 0.7rem 1rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+}
+
+.mapDetails{
+    width: 60%;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+}
+
+.mapDetails img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 

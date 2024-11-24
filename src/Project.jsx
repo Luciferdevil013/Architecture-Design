@@ -2,9 +2,17 @@ import React, { useState } from 'react';
 import Sktrech from './Assets/hand.jpg';
 import Filter from './Compoents/FilterButton';
 import Show from './Compoents/Show';
+import Button from './Compoents/Button';
 
 function Project() {
-    const [active,setactive] = useState('1');
+    const [active, setactive] = useState('1');
+    // const Projectdata = {
+    //     'AllProject':{
+    //         '1':{
+    //             'Img':
+    //         }
+    //     }
+    // }
 
     return (
         <div className="projectSection">
@@ -39,6 +47,7 @@ function Project() {
                     <Show />
                     <Show />
                 </div>
+                <Button Name={'See More'} />
             </div>
         </div>
     )

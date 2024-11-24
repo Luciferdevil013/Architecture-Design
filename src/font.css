@@ -165,3 +165,9 @@
 .nameDetails .h5-heading{
     font-size: 0.96rem;
 }
+
+
+.email .h2-heading,
+.phone .h2-heading{
+    font-size: 2.2rem;
+}

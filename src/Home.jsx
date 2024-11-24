@@ -10,6 +10,7 @@ import AboutImg from './Assets/P.jpg';
 import AboutComp from './Compoents/AboutComp';
 import About from './Assets/about.jpg';
 import Project from './Project';
+import Footer from './Footer';
 
 function Home() {
   const [Image, setImage] = useState(Service);
@@ -120,6 +121,7 @@ function Home() {
       </div>
 
       <Project />
+      <Footer />
     </main>
   )
 }
